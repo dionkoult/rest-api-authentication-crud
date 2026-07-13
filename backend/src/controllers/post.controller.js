@@ -37,6 +37,7 @@ const getPosts = async (req, res) => {
   }
 }
 
+// update posts
 const updatePost = async (req, res) => {
   try {
     // basic validation to check if the body is empty
@@ -65,6 +66,7 @@ const updatePost = async (req, res) => {
   }
 }
 
+// delete post
 const deletePost = async (req, res) => {
   try {
     const deleted = await Post.findByIdAndDelete(req.params.id);
