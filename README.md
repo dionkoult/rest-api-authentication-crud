@@ -55,8 +55,8 @@ The API supports CRUD functionality:
 
 ## Update
 
-![Update](backend/screenshots/update-post.png)
+![Update](backend/src/screenshots/update-post.png)
 
 ## Delete
 
-![Delete](backend/screenshots/delete-post.png)
+![Delete](backend/src/screenshots/delete-post.png)
